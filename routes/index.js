@@ -138,7 +138,7 @@ Dial *384*27742# to check your status.
                   .catch((error) => (response = responses.network_error));
               }
             }
-            if (!isValid) {
+            if (isValid==undefined) {
               response = responses.invalid_time_format;
             }
           }
@@ -294,7 +294,7 @@ Dial *384*27742# to book again.`;
                 .catch((error) => (response = responses.network_error));
             }
           }
-          if (!isValid) {
+          if (isValid==undefined) {
             response = responses.invalid_time_format;
           }
         }
@@ -311,7 +311,7 @@ response=responses.service_404
     res.set("Content-Type: text/plain");
     res.send(response);
   }, 2000);
-  console.log(textArray);
+
 });
 
 module.exports = router;
