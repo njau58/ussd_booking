@@ -57,9 +57,7 @@ const slotValidator = (User_slot) => {
       if (User_slot === available_slots[key]) {
         return true;
       }
-      else {
-        return false;
-      }
+      
     }
   }
 };
