@@ -35,7 +35,7 @@ const responses = {
 
 `,
 invalid_time_format:'END Please provide a valid time format.',
-service_404:'END This ervice not available at the moment.'
+service_404:'END This service not available at the moment.'
 
 };
 
