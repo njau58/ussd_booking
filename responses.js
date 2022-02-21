@@ -26,13 +26,8 @@ const responses = {
   not_booked: `END You are not booked.\nDial *384*27742#`,
   no_records: `END You have no records.Dial *384*27742#`,
   cancellation_success: ` END Cancellation was successful.Wait for confirmation SMS.`,
-  update_client_input_data: `CON   Update your appointment.
-    NB:Time should be 8am-9am,10am-11am etc
-    \n
+   update_client_input_data: ` --------Follow format below-------
    eg simon#2022-06-20#8am-9am
-
-
-
 `,
 invalid_time_format:'END Please provide a valid time format.',
 service_404:'END This service not available at the moment.'
