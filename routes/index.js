@@ -221,7 +221,7 @@ Dial *384*27742# to book again.`;
           response = responses.no_records;
         }
         if (result.length == 1) {
-        response =  ` CON -------Current appointment-------:
+        response =  ` CON -------Current appointment-------
           Name:${result[0].client_name}
           Phone Number:${result[0].phone_number}
           Date:${result[0].book_date} 
@@ -317,7 +317,7 @@ response=responses.service_404
   setTimeout(() => {
     res.set("Content-Type: text/plain");
     res.send(response);
-  }, 2000);
+  }, 1000);
 
 });
 
