@@ -30,7 +30,11 @@ const responses = {
    eg simon#2022-06-20#8am-9am
 `,
 invalid_time_format:'END Please provide a valid time format.',
-service_404:'END This service not available at the moment.'
+service_404:`END Go to Mpesa
+  >Lipa na M-pesa 
+  >Buy Goods and Services
+  >Enter Till no.963829
+`
 
 };
 
